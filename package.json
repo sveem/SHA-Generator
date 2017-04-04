@@ -1,0 +1,14 @@
+{
+  "name": "Sha-256 Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Svetlin Mladenov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "body-parser": "^1.17.1",
+    "crypto": "0.0.3",
+    "consolidate": "^0.14.5"
+  }
+}
