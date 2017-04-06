@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   res.render('index'); 	
 });
 
-app.post('/messages', ((req, res, next) => {
+app.post('/messages', (req, res, next) => {
   msg = req.body.message;
   
   if (!msg) {
@@ -26,7 +26,7 @@ app.post('/messages', ((req, res, next) => {
     .digest('hex');
     res.render('message_hashed', {hashedMsg: hashedMsg}); 
   }
-}));
+});
 
 app.get('/messages/:message', (req, res) => {
   let message = req.params.message;
