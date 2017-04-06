@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   res.render('index'); 	
 });
 
-app.post('/messages', (req, res, next) => {
+app.post('/messages', (req, res) => {
   msg = req.body.message;
   
   if (!msg) {
