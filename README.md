@@ -2,8 +2,8 @@
 
 ## Introduction
 
-SHA-256 Generator a small service on the web that has two endpoints:
-1. /messages  takes a message (a string) as a POST and returns the SHA256 hash digest of that message (in hexadecimal format).
+SHA-256 Generator is a small service on the web that has two endpoints:
+1. /messages takes a message (a string) as a POST and returns the SHA256 hash digest of that message (in hexadecimal format).
 
 2. /messages/hashed_message is a GET request that returns the original message. A request to a non-existent hashed message should return a 404 error.
 
